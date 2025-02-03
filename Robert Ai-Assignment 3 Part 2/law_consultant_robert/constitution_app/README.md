@@ -2,7 +2,7 @@
 
 ## Overview
 
-Robert-Ai is an application designed to provide empathetic emotional support. This bot combines cutting-edge technologies to deliver meaningful and helpful interactions for users seeking companionship and understanding. It is equipped with advanced AI models to ensure realistic and emotionally aware responses.
+Robert-Ai is an application designed to provide empathetic emotional support. This bot combines cutting-edge technologies to deliver meaningful and helpful interactions for users seeking companionship and law consultation. It is equipped with advanced AI models to ensure realistic and emotionally aware responses. But before starting application you need to download one of the zip files either openai version or ollama-local version.
 
 ## Installation
 
@@ -39,7 +39,6 @@ $env:OPENAI_API_KEY="your-openai-api-key"
 ```
 
 You can get yours at: https://platform.openai.com/settings/proj_aFGBtPZL9XTDWQIQDGtBlgEP/api-keys
-
 ## Project Structure
 
 The project follows a structured format to ensure organization and efficiency:
@@ -63,9 +62,9 @@ Utilities:
 │
 Testing Files:
 │── test/
-│   ├── test_app.py
-│   ├── test_preprocess.py
-│   ├── test_app_chatbot_response_validation.py.py
+│   ├── app_test_preprocess.py
+│   ├── app_test_user_verification_ai.py
+│   ├── app_test_validate_user_ollama.py
 │
 Documentation and Requirements:
 │── README.md
