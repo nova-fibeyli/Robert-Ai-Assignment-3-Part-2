@@ -1,0 +1,14 @@
+streamlit
+pymongo
+llama-index
+ollama
+pymupdf
+streamlit
+pymongo
+llama-index
+ollama
+pymupdf
+langchain_community
+langchain-openai
+tiktoken
+chromed
